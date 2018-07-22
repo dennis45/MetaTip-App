@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".Activity.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btn_open_file"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_round"
+            android:text="Open wallet from file"
+            android:textColor="@color/colorMainButtonText"/>
+        <!--<Button-->
+            <!--android:id="@+id/btn_qrcode_scan"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:background="@drawable/button_round"-->
+            <!--android:text="QRCode Scan"-->
+            <!--android:textColor="@color/colorMainButtonText"/>-->
+    </LinearLayout>
+</RelativeLayout>
